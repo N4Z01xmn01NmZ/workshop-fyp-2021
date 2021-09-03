@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# FYP Template Repo
 
-You can use the [editor on GitHub](https://github.com/N4Z01xmn01NmZ/workshop-fyp-2021/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This repo contains a node.js server and various workshop resources for use during the First Year Program of Binusian 2025.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Usage
 
-### Markdown
+Navigate either through the github repository or through the provided github pages. The codes used during the workshop are available in the session directory.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Content
 
-```markdown
-Syntax highlighted code block
+### Workshop ARE
 
-# Header 1
-## Header 2
-### Header 3
+1. [Machine Programming](./01-machine-programming)
+2. Embedded System
 
-- Bulleted
-- List
+### Workshop ARE/PDE
 
-1. Numbered
-2. List
+[Python Scientific Computation](./03-python-scientific-computation)
 
-**Bold** and _Italic_ and `Code` text
+## Support or Contact
 
-[Link](url) and ![Image](src)
-```
+Having any troubles? Don't hesitate to contact your freshmen leader. If you're having errors, you can post the issue containing error warnings and screenshots when necessary through github.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## License
 
-### Jekyll Themes
+MIT License
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/N4Z01xmn01NmZ/workshop-fyp-2021/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Copyright (c) 2021 N4Z01xmn01NmZ
