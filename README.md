@@ -1,4 +1,4 @@
-# FYP Template Repo
+# Workshop FYP 2021
 
 This repo contains a node.js server and various workshop resources for use during the First Year Program of Binusian 2025.
 
