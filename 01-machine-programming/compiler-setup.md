@@ -2,39 +2,30 @@
 
 ## Install Windows Mingw
 
-1. Download Mingw-w64 via [MSYS2](https://www.msys2.org).
-2. Follow the instruction provided by the website.
-    Command summary (run with "MSYS2 MSYS" from Start menu):
-    - Update the package database and base packages.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nMwQS40ePDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        ```bash
-        pacman -Syu
-        ```
+1. Install [MSYS2](https://www.msys2.org).
 
-        - Update the rest of the base packages.
+    - Download the installer: <a href="https://github.com/msys2/msys2-installer/releases/download/2021-07-25/msys2-x86_64-20210725.exe" class="button">msys2-x86_64-20210725.exe</a>
+    - Run the installer.
+    - Use the default installation folder or specify one.
+        ![Second screen of MSYS2 installation](https://www.msys2.org/images/install-2-path.png)
 
-        ```bash
-        pacman -Su
-        ```
+2. Setting up MSYS2.
 
-        - Install some tools and mingw-w64 GCC needed for compilation.
+    - From the start menu run `MSYS2 MSYS`.
+    - To update the package database and base package type the command `pacman -Syu` until `there is nothing todo`.
 
-        ```bash
-        pacman -S --needed base-devel mingw-w64-x86_64-toolchain
-        ```
+3. Install the toolchain
 
-3. Add the path to Mingw-w64 installation directory `bin` folder to system `PATH`.
+    - Type the command `pacman -S --needed base-devel mingw-w64-x86_64-toolchain`.
+    - Press `ENTER` to select all package when the prompt `Enter a selection (default=all)` show up.
 
-4. Validate installation by calling `mingw32-make` or `gcc`. (Do this after adding  to system `PATH`)
-
-     ```bash
-     mingw32-make -v
-     ```
-
-    ```bash
-    g++ -v
-    gdb -v
-    ```
+4. Validating installation
+    - From the start menu run `MSYS2 MinGW 64-bit`.
+    - Type the command `g++ -v`.
+    - The command will show the target when installed.
+        ![Terminal output of MSYS2 MinGW 64-bit terminal](./res/mintty_SqCkKZH9e8.png)
 
 ## Install Linux GCC
 
