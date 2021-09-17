@@ -13,7 +13,6 @@ How to [setup the compiler](./compiler-setup.md).
 ## Content
 
 - <a href="https://code.visualstudio.com/docs/getstarted/introvideos" target="_blank">Intro to Visual Studio Code</a>
-- [Programming language C++](./cpp)
-- [PlatformIO IDE](./pio)
+- [Programming language C++ learning references](https://www.learncpp.com)
 
 See the <a href="./slide.html" target="_blank">slide</a>.

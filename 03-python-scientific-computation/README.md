@@ -12,7 +12,7 @@ How to [setup python](./python-setup.md).
 ## Content
 
 - <a href="https://code.visualstudio.com/docs/getstarted/introvideos" target="_blank">Intro to Visual Studio Code</a>
-- [Programming language Python](./python)
-- Jupyter Notebook
+- Python programming language
+- Interactive science with Jupyter Notebook
 
 See the <a href="./slide.html" target="_blank">slide</a>.
